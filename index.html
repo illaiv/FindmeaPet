@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="pet.js" defer></script>
+
+
+    <style>
+        img {
+            max-width:50%;
+            height: auto;
+        }
+    </style>
+</head>
+<h1> Hamilton Dog Catalog </h1>
+<h3> Please enter the desired minimum age for a dog you would like to adopt. We have 10 dogs currently in our shelter and need to find them a forever home</h5>
+<img src="doghouse.jpg">
+<body>
+    <p>
+        <label for="petAge">Please enter the mininmum age for the dog:</label>
+        <input type="text" id="petAge" name="petAge" maxlength="9" size="9"></input>
+        <button onclick="showInfo()">Click for results!</button>
+
+    </p>
+ <div class="selectedDogInformation"></div>
+</body>
+</html>
